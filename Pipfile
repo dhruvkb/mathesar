@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+psycopg2-binary = "*"
+django = "*"
+alembic = "*"
+sqlalchemy = "*"
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+ipython = "*"
+isort = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
