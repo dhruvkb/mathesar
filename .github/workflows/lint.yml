@@ -19,7 +19,7 @@ jobs:
         with:
           args: ". --check"
       - name: Run isort
-        uses: jamescurtin/isort-action@master
+        uses: isort/isort-action@master
       - name: Run flake8
         uses: julianwachholz/flake8-action@v1.1.0
         with:
